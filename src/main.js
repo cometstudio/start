@@ -26,9 +26,13 @@ import App from './App.vue'
 // Layout Components
 require('./layouts')
 
-new Vue({
+const vm = new Vue({
   router,
   store,
   i18n,
   render: h => h(App)
-}).$mount('#app')
+})
+
+//store.$root = vm
+
+vm.$mount('#app')

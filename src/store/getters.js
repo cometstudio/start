@@ -10,7 +10,4 @@ export default {
     user: state => {
         return state.user.id === null ? defaultUser() : state.user
     },
-    isLoggedIn: state => {
-        return state.user.id !== null
-    },
 }
