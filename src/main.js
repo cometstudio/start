@@ -23,8 +23,11 @@ import i18n from './i18n'
 
 // App Component
 import App from './App.vue'
+
 // Layout Components
 require('./layouts')
+// HTTP Request interceptors
+require('./interceptors')
 
 const vm = new Vue({
   router,
