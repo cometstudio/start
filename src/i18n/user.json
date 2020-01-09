@@ -1,0 +1,81 @@
+{
+  "en": {
+    "user": {
+      "guest": "Guest",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "validation": {
+        "name": {
+          "required": "Enter your name",
+          "max": "Name must be 32 symbols maximum"
+        },
+        "email": {
+          "required": "Email is required",
+          "email": "Provide a real Email, please",
+          "max": "Email must be 32 symbols maximum"
+        },
+        "password": {
+          "required": "Password is required"
+        }
+      },
+      "signup": {
+        "title": "Sign up",
+        "button": "Sign up",
+        "failed": "We cannot register you right now, give us a try later"
+      },
+      "login": {
+        "title": "Log in",
+        "button": "Log in",
+        "failed": "Wrong login or password",
+        "not_found": "This user is not yet registered"
+      },
+      "profile": {
+        "title": "Your profile data"
+      },
+      "logout": {
+        "button": "Log out"
+      }
+    }
+  },
+  "ru": {
+    "user": {
+      "guest": "Гость",
+      "name": "Имя",
+      "email": "E-mail",
+      "password": "Пароль",
+      "validation": {
+        "name": {
+          "required": "Укажите имя",
+          "max": "E-mail должен содержать не более 32 символов"
+        },
+        "email": {
+          "required": "Укажите e-mail",
+          "email": "Укажите реальный e-mail",
+          "max": "E-mail должен содержать не более 32 символов"
+        },
+        "password": {
+          "required": "Укажите пароль"
+        }
+      },
+      "signup": {
+        "title": "Зарегистрироваться",
+        "button": "Зарегистрироваться",
+        "failed": "Зарегистрироваться не получилось, попробуйте позже"
+      },
+      "login": {
+        "title": "Войти",
+        "button": "Войти",
+        "failed": "Неправильный логин или пароль",
+        "not_found": "Пользователь с таким e-mail не зарегистрирован"
+      },
+
+      "profile": {
+        "title": "Ваши персональные данные"
+      },
+      "logout": {
+        "button": "Выйти"
+      }
+    }
+  }
+}

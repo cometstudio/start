@@ -1,0 +1,29 @@
+@import '~reset-css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+body{
+  @include font--regular();
+  @include color--black();
+  @include weight--regular();
+
+  height: 100%;
+}
+
+a, .a{
+  @include color--secondary();
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+b, strong{
+  @include weight--bold();
+}

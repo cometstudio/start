@@ -1,0 +1,10 @@
+{
+  "success": "Success",
+  "button": {
+    "save": "Save"
+  },
+  "error": {
+    "validation": "Some fields are filled incorrectly",
+    "update": "Update failed"
+  }
+}

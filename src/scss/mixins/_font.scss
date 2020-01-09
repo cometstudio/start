@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600&display=swap&subset=cyrillic');
+
+@mixin font--regular(){
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+@mixin font--small(){
+  font-size: 0.8rem;
+  line-height: 1.5em;
+}
+
+@mixin font--medium(){
+  font-size: 1.2rem;
+  line-height: 1.5em;
+}
+
+@mixin weight--regular(){
+  font-weight: $weight--regular;
+}
+
+@mixin weight--bold(){
+  font-weight: $weight--bold;
+}
+
+@mixin color--black(){
+  color: $color--black;
+}
+
+@mixin color--primary(){
+  color: $color--primary;
+}
+
+@mixin color--secondary(){
+  color: $color--secondary;
+}
