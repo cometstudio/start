@@ -1,6 +1,6 @@
 <template>
   <div class="other view">
-    Anther view with <router-link to="/">link back</router-link>
+    Another view with <router-link to="/">a link back</router-link>
   </div>
 </template>
 

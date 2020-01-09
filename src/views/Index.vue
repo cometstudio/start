@@ -2,8 +2,8 @@
 
 <template>
   <div class="index view">
-    <p>Index view with <router-link to="other">link to another view</router-link></p>
-    <p>Locale <a @click="toggleLocale()">{{ languages[locale].name }}</a></p>
+    <p>Index view with <router-link to="other">a link to another view</router-link></p>
+    <p>Language: <a @click="toggleLocale()">{{ languages[locale].name }}</a></p>
     <p>{{ $t('user.guest') }} seen this page {{ $moment.utc().local().calendar() }}</p>
   </div>
 </template>
